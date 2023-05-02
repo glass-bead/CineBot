@@ -10,3 +10,7 @@
 
 # Visual Studio cache/options directory
 .vs/
+
+# data json file
+data.json
+*.json

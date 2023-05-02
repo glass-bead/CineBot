@@ -1,9 +1,21 @@
 require('dotenv').config();
-const { Client, Events, GatewayIntentBits, Collection } = require('discord.js');
+const { Client, GatewayIntentBits, Collection, Partials } = require('discord.js');
 const { TOKEN, CLIENT_ID, GUILD_ID} = process.env;
 
 // Create a new client instance
-const client = new Client({ intents: [GatewayIntentBits.Guilds] });
+const client = new Client({ 
+    intents: [
+        GatewayIntentBits.Guilds, 
+        GatewayIntentBits.GuildMembers, 
+        GatewayIntentBits.GuildMessages, 
+        GatewayIntentBits.MessageContent,
+        GatewayIntentBits.GuildPresences,
+        GatewayIntentBits.DirectMessages,
+        GatewayIntentBits.DirectMessageReactions,
+        GatewayIntentBits.GuildMessageReactions,
+    ],
+    partials: [Partials.Channel, Partials.Message, Partials.Reaction],
+});
 
 // Loading command files
 client.commands = new Collection();
