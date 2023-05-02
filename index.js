@@ -20,6 +20,12 @@ for (const file of commandFiles) {
     } 
 }
 
+// Global variables
+global.url_init = 'http://www.omdbapi.com/?t=';
+global.apikey = '&apikey=8ca4715';
+global.IMDBurl = 'https://www.imdb.com/title/';
+global.emptyPoster = 'https://www.childlinethailand.org/wp-content/uploads/2021/04/N-A.jpeg';
+
 /* ======================================================== */
 
 // Bot login

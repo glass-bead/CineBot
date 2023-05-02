@@ -8,7 +8,7 @@ This project is a Discord Bot written in JavaScript that helps server members or
 
 This bot is built using a variety of technologies, including:
 
-* [Discord.js](https://discord.js.org/): A powerful and flexible library for interacting with the Discord API (version 14.9.0)
+* [Discord.js](https://discord.js.org/): A powerful and flexible library for interacting with the Discord API (version 14.10.2)
 * [Node.js](https://nodejs.org/en/about): A popular server-side JavaScript runtime (version 18.16.0)
 * [npm](https://nodejs.dev/en/learn/an-introduction-to-the-npm-package-manager/): Standard package manager for Node.js (version 9.6.5)
 * [Discord Developer Portal](https://discord.com/developers/applications): a platform that provides tools and resources for developers to create and manage applications that integrate with the Discord platform
