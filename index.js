@@ -37,6 +37,7 @@ global.url_init = 'http://www.omdbapi.com/?t=';
 global.apikey = '&apikey=8ca4715';
 global.IMDBurl = 'https://www.imdb.com/title/';
 global.emptyPoster = 'https://www.childlinethailand.org/wp-content/uploads/2021/04/N-A.jpeg';
+global.numEmoji = ['1️⃣','2️⃣','3️⃣','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣','9️⃣','🔟'];
 
 /* ======================================================== */
 
