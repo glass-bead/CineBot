@@ -7,3 +7,6 @@
 
 # npm modules
 /node_modules
+
+# Visual Studio cache/options directory
+.vs/
